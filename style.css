@@ -232,3 +232,30 @@ header {
   color: #c7511f;
   text-decoration: underline;
 }
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .nav-logo img {
+      width: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+  
+    .header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  
