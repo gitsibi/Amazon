@@ -45,9 +45,6 @@ body {
   display: flex;
   align-items: center;
   font-size: 1.1rem;
-
-
-  /* overflow: hidden; */
 }
 
 .logo {
@@ -242,8 +239,6 @@ body {
   display: flex;
 }
 
-
-/*--image slider --*/
 .image-container {
   position: relative;
 }
@@ -295,7 +290,6 @@ body {
   margin: 2px;
 }
 
-/*product card container*/
 .main{
   position: relative;
   top:-350px;
@@ -366,9 +360,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* Add these media queries at the end of your existing CSS */
 
-/* For tablets (landscape) and smaller */
 @media only screen and (max-width: 1024px) {
 
   .back-ground
@@ -457,8 +449,6 @@ body {
     height: auto;
   }
 }
-
-/* For mobile devices */
 @media only screen and (max-width: 600px) {
 
   .back-ground
@@ -494,7 +484,6 @@ body {
   }
 }
 
-/* For mobile devices */
 @media only screen and (max-width: 600px) {
   /* Adjustments for the header */
   .header {
@@ -525,7 +514,6 @@ body {
 
   }
 
-  /* Adjustments for the navigation */
   .container-nav {
     flex-direction: column;
     align-items: center;
@@ -535,7 +523,6 @@ body {
     padding: 5px 0;
   }
 
-  /* Adjustments for the product cards */
   .card-product-container {
     flex-direction: column;
     align-items: center;
